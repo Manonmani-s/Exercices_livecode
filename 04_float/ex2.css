@@ -1,0 +1,17 @@
+div.wrapper {
+    width: 100%;
+    height: 600px;
+    border: 1px solid black;
+    overflow: clip;
+}
+
+.box {
+    height: 44%;
+    width: 17%;
+    border: 1px solid green;
+
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.

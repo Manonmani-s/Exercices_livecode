@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Learning Float</title>
+    <style>
+        .divstyle {
+            float: right;
+            border: 1px solid green;
+            background-color: violet;
+            width: 300px;
+            height: 300px;
+
+            /* bottom: 10px; */
+            /* float: left; */
+            /* top: 500px; */
+        }
+
+        .box1 {
+            margin-right: 10px;
+            border: 1px solid red;
+            background-color: yellow;
+            width: 300px;
+            height: 300px;
+            float: left;
+        }
+
+        p:after {
+            float: none;
+            clear: both;
+            width: 10px;
+            height: 20px;
+        }
+
+        .box3 {
+            background-color: green;
+            width: 300px;
+            height: 300px;
+            float: left;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>FLoat</h1>
+
+    <div class="box1">
+        This div is float:left;
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum perspiciatis cupiditate nesciunt ex eius! Fugit
+        beatae cupiditate veritatis inventore quaerat assumenda debitis deleniti autem dolor ratione delectus,
+        voluptatibus eius minus facere expedita laboriosam iste nesciunt. Sequi atque placeat illo non!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum perspiciatis cupiditate nesciunt ex eius! Fugit
+        beatae cupiditate veritatis inventore quaerat assumenda debitis deleniti autem dolor ratione delectus,
+        voluptatibus eius minus facere expedita laboriosam iste nesciunt. Sequi atque placeat illo non!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum perspiciatis cupiditate nesciunt ex eius! Fugit
+        beatae cupiditate veritatis inventore quaerat assumenda debitis deleniti autem dolor ratione delectus,
+        voluptatibus eius minus facere expedita laboriosam iste nesciunt. Sequi atque placeat illo non!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum perspiciatis cupiditate nesciunt ex eius! Fugit
+        beatae cupiditate veritatis inventore quaerat assumenda debitis deleniti autem dolor ratione delectus,
+        voluptatibus eius minus facere expedita laboriosam iste nesciunt. Sequi atque placeat illo non!
+        Lorem ipsum dolor sit amet consectetur adipisicin
+
+    </p>
+    <!-- <div
+      style="
+       
+      "
+    >
+      This div is float:left; -->
+    <!-- </div>
+    <div style="float: none; width: 10px; height: 20px;"> -->
+
+    </div>
+    <div class="box3">dummy text
+        without float
+    </div>
+</body>
+
+</html>

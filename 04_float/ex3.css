@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1D1F1F;
+}
+
+h1 {
+    text-align: center;
+}
+
+article {
+    background-color: white;
+    padding: 1em;
+    width: 65%;
+    margin: 0 auto;
+    border: 5px solid orange;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+figure {
+    margin: 1em;
+}

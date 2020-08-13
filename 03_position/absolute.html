@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absolute</title>
+    <style>
+        div.relative {
+            position: relative;
+            border: 3px solid greenyellow;
+            top: 25%;
+            /* left: 10px; */
+            width: 400px;
+            height: 200px;
+            background-color: lightgray;
+
+        }
+
+        div.absolute {
+            position: absolute;
+            background-color: aqua;
+            /* right: 0; */
+            width: 50px;
+            height: 50px;
+            border: 3px solid limegreen;
+            top: 0px;
+
+        }
+
+        div.s-absolute {
+            position: absolute;
+            background-color: white;
+            right: 0px;
+            width: 200px;
+            height: 100px;
+            border: 3px solid limegreen;
+        }
+
+        div.outside {
+            position: relative;
+            top: 130px;
+            right: 0;
+            width: 200px;
+            height: 100px;
+            border: 3px solid limegreen;
+        }
+
+        div.relative2 {
+            position: relative;
+            border: 3px solid violet;
+            widows: 300px;
+            height: 300px;
+        }
+
+        div.static2 {
+            border: 3px solid red;
+            widows: 200px;
+            height: 200px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Position:absolute;</h2>
+    <!-- <p>The element with position:absolute is also relative but only to the nearest parent element with position:relative; and it doesnt respect the block level rules and also it overlaps teh elements position in the same position
+
+    </p>
+    <div class="relative">
+
+        This div has position:relative;
+
+        <div class="s-absolute">
+            This is another div with position:absolute;
+        </div>
+        <div class="absolute">
+            This is div with position:absolute;
+        </div>
+    </div>
+    <div class="outside">
+        This is a div outside
+    </div>
+    <hr> -->
+    <div class="relative">
+        This div has relative position
+        <div class="relative2">this is relative2
+            <div class="static2">this is static
+                <div class="absolute">this is absolute</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

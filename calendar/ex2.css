@@ -1,0 +1,71 @@
+h1 {
+    text-align: center;
+    color: rgb(4, 161, 161);
+}
+
+h1 span {
+    background-color: beige;
+    border-radius: 8px;
+
+}
+
+
+/* Table Styles */
+
+table.pinkTable {
+    border: 4px solid #555555;
+    background-color: #555555;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+
+
+}
+
+/* styles for the td */
+
+table.pinkTable td {
+
+    border: 1px solid #555555;
+    padding: 3px 8px;
+    font-size: 13px;
+    color: white;
+    font-weight: bold;
+}
+
+
+/* background color style for the even rows  */
+
+table.pinkTable tr:nth-child(even) {
+    background-color: #A43152;
+}
+
+/* Background color style for the even coumns */
+
+table.pinkTable td:nth-child(even) {
+    background-color: #A43152;
+}
+
+/* anchor link styles */
+
+a {
+    font-size: 10px;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+    text-align: center;
+    text-align: right;
+    display: block;
+    margin-top: 20px;
+
+}
+
+a span {}
+
+a:hover {
+    color: darkgreen;
+}
+
+a:active {
+    color: cornflowerblue;
+}
